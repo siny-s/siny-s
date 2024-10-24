@@ -354,7 +354,7 @@ http-response ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ scrip
 
 # 阿里云盘 //*api.alipan.com, member.alipan.com
 http-response ^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(?:news|widgets) script-path = https://raw.githubusercontent.com/siny-s/siny-s/refs/heads/main/Loon/Scripts/adrive.js, requires-body = true, tag = aliyun_mine
-http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path = https://raw.githubusercontent.com/siny-s/siny-s/refs/heads/main/Loon/main/Scripts/adrive.js, requires-body = true, tag = aliyun_board
+http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path = https://raw.githubusercontent.com/siny-s/siny-s/refs/heads/main/Loon/Scripts/adrive.js, requires-body = true, tag = aliyun_board
 
 # 阿里巴巴 //acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com
 http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(?:cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) script-path = https://raw.githubusercontent.com/siny-s/siny-s/refs/heads/main/Loon/Scripts/myBlockAds.js, requires-body = true, tag = taobao_1
